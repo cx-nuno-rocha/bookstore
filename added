@@ -10,8 +10,6 @@ class MainApp {
 	  
 	  String inject = "";
 	  Console.WriteLine("Hello World using C#!" + inject );
-	  
-	  
 	  RSACryptoServiceProvider RSA1 = new RSACryptoServiceProvider();
 	  encryptedData = RSA1.Encrypt(dataToEncrypt, false);
    }
